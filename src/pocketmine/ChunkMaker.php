@@ -9,7 +9,7 @@ use pocketmine\network\protocol\DataPacket;
 class ChunkMaker extends Thread {
 
 	protected $classLoader;
-  $this->internalQueue = new \Threaded;
+		$this->internalQueue = new \Threaded;
 		$this->shutdown = false;
 		$this->classLoader = $loader;
 		$this->raklib = $raklib;
